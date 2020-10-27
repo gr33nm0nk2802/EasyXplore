@@ -8,6 +8,7 @@
     <title> EasyXplore | Home </title>
 </head>
 <body>
+    <!-- Header and Titlebar Section Starts -->
     <header>
         <ul>
             <li>Home</li>
@@ -16,7 +17,9 @@
             <li>Help</li>
         </ul>
     </header>
-
+    <!-- Header and titlebar section ends -->
+    <hr>
+    <!-- Main body of the landing page starts -->
     <main>
         <div id="current-state">
             <span>Whats your current State?</span>
@@ -24,6 +27,7 @@
             <label for="planning"> Planning to visit</label>
             <input type="radio" name="state" id="visiting" value="visiting">
             <label for="visiting"> Currently visiting</label>
+            <button type="submit" name="Next" value="next">Next</button>
         </div>
         
         <div id="planning-where">
@@ -32,9 +36,11 @@
             <label for="decided">Decided</label>
             <input type="radio" name="spot" id="not-decided" value="not decided">
             <label for="not-decided">Yet to decide</label>
+            <button type="submit" name="Next" value="submit">Next</button>
         </div>
     </main>
-    
+    <!-- Main body of the landing page ends -->
+    <hr>
     <footer>
         Copyright 2020 | EasyXplore
     </footer>

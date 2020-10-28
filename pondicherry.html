@@ -1,34 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta author="Ekta Singh, Namrata Das, Syed Modassir Ali">
-    <meta description="Travelling guide">
-    <link rel="stylesheet" href="style/style.css">
-    <title> EasyXplore | Home </title>
+<style>
+body {background-image: url("https://user-images.githubusercontent.com/61902012/97427215-4583df80-193a-11eb-9357-5a4109509e5a.jpg");background-size: cover;}
+.navbar{width:104%;
+margin-left:-2%;}
+ul.nav{overflow:hidden;
+list-style-type:none;
+background-color:white;
+padding:0;
+margin:auto;
+margin-bottom:20px;
+margin-right:0px;
+margin-top:-0.8%;
+width:400px;}
+li.ncomp{ float:left;
+}
+li.ncomp a {padding:20px;
+display:block;
+cursor:pointer;
+color:black;
+text-decoration:none;
+text-align:center;}
+li.ncomp a:hover{background-color:#01579B;
+color:white;}
+
+.exheading{text-align:center;
+font-size:0.9vw;}
+
+.placescard{margin-top:22%;width:80%;margin-left: 10%;
+border-top: solid white 3px;
+border-radius: 20px;}
+
+ul.pcards{overflow:hidden;
+list-style-type:none;
+background-color:white;}
+
+li.places{float:left;
+  margin:2%;}
+
+.pplace{border: solid grey 1.5px;
+border-radius:10px;}
+
+.pplace:hover{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+a {text-decoration: none;}
+</style>
 </head>
 <body>
-    <!-- Header and Titlebar Section Starts -->
-    <header>
-        <div class="navbar" style="background-color:white;">
-             <ul class="nav">
-                 <li class="ncomp"><a href="#">Home</a></li>
-                 <li class="ncomp"><a href="#">Planning to Visit</a></li>
-                 <li class="ncomp"><a href="#">Currently Visiting</a></li>
-                 <li class="ncomp"><a href="#">Help</a></li>
-             </ul>
-        </div>
-    </header>
-    <!-- Header and titlebar section ends -->
-    <hr>
-    
-    <main>
 
-    </main>
-
-    <footer>
-
-    </footer>
+<div class="navbar" style="background-color:white;">
+<ul class="nav">
+<li class="ncomp"><a href="index.html">Home</a></li>
+<li class="ncomp"><a href="suggest.html">Photo Gallery</a></li>
+<li class="ncomp"><a href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+<div class="exheading">
+  <h1>Pondicherry</h1>
+  <h4 style="font-size:1vw;margin-top:-10px;">Paris of the East</h4>
+</div>
+<div class="placescard">
+  <ul class="pcards">
+    <li class="places"><a href="pondicherry.html"><div class="pplace"><img src="https://user-images.githubusercontent.com/61902012/97433946-4a4d9100-1944-11eb-8a9c-22e5caba3028.jpg" height="127px;"; width="200px";></img><h3 style ="text-align:center;">Famous Food</h3></div></a></li>
+    <li class="places"><a href="pondicherry.html"><div class="pplace"><img src="https://user-images.githubusercontent.com/61902012/97434029-681af600-1944-11eb-9d37-9f052eda4451.jpg" height="auto"; width="200px";></img><h3 style ="text-align:center;">About Pondicherry</h3></div></a></li>
+    <li class="places"><a href="pondicherry.html"><div class="pplace"><img src="https://user-images.githubusercontent.com/61902012/97434102-87b21e80-1944-11eb-9d26-121b4380dce4.jpg" height="auto"; width="200px";></img><h3 style ="text-align:center;">Tourist Attractions</h3></div></a></li>
+    <li class="places"><a href="pondicherry.html"><div class="pplace"><img src="/home/ekta/Downloads/nat.jpg" height="auto"; width="200px";></img><h3 style ="text-align:center;">How To Reach</h3></div></a></li>
+</div>
 </body>
 </html>

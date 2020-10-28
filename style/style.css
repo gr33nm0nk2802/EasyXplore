@@ -5,6 +5,30 @@
     scroll-behavior: smooth;
 }
 
+ul.nav{
+    overflow:hidden;
+    list-style-type:none;
+    background-color:white;
+    padding:0;
+    margin:auto;
+    margin-bottom:20px;
+    margin-right:0px;
+    width:400px;
+    }
+    li.ncomp{ 
+        float:left;
+    }
+    li.ncomp a {
+    padding:20px;
+    display:block;
+    cursor:pointer;
+    color:#01579B;
+    text-decoration:none;
+    text-align:center;}
+    li.ncomp a:hover{background-color:#01579B;
+    color:white;
+    }
+
 /* Light mode colors */
 @media (prefers-color-scheme: light) {
     body {
